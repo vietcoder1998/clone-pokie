@@ -1,0 +1,43 @@
+name: Deploy to Remote Server
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install SSH client
+        run: sudo apt-get install -y openssh-client
+
+      - name: Set up SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          echo "Host ${{ secrets.SSH_HOST }}" >> ~/.ssh/config
+          echo "  Port ${{ secrets.SSH_PORT }}" >> ~/.ssh/config
+          echo "  User ${{ secrets.SSH_USERNAME }}" >> ~/.ssh/config
+          echo "  PreferredAuthentications publickey" >> ~/.ssh/config
+          echo "  IdentityFile ~/.ssh/id_rsa" >> ~/.ssh/config
+          echo "  IdentitiesOnly yes" >> ~/.ssh/config
+
+          # Add passphrase if it exists
+          if [ -n "${{ secrets.SSH_PASSPHRASE }}" ]; then
+            echo "  AddKeysToAgent yes" >> ~/.ssh/config
+            echo "  BatchMode yes" >> ~/.ssh/config
+            echo "  ServerAliveInterval 60" >> ~/.ssh/config
+            echo "  ServerAliveCountMax 10" >> ~/.ssh/config
+            echo "  PasswordAuthentication no" >> ~/.ssh/config
+            echo "  IdentityAgent ~/.ssh/agent" >> ~/.ssh/config
+            echo "${{ secrets.SSH_PASSPHRASE }}" | ssh-add -K -
+          fi
+
+      - name: Deploy via SSH
+        run: ssh ${{ secrets.SSH_HOST }} "cd ~/application/my-blog-ssr && git pull origin main"

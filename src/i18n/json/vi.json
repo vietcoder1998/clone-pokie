@@ -1,0 +1,285 @@
+{
+    "common": {
+        "header": {
+            "home": "Trang chủ",
+            "aboutMe": "Về tôi",
+            "resource": "Tài nguyên",
+            "rss": "rss",
+            "search": "Tìm kiếm",
+            "profile": "Hồ sơ",
+            "english": "Tiếng Anh",
+            "vietnamese": "Tiếng Việt",
+            "admin": "Quản trị",
+            "blogList": "Danh sách bài viết",
+            "roleList": "Danh sách quyền",
+            "permissionList": "Danh sách phân quyền",
+            "profileList": "Danh sách hồ sơ người dùng",
+            "tagList": "Danh sách thẻ",
+            "commentList": "Danh sách lời thoại",
+            "userList": "Danh sách người dùng",
+            "loginOrRegister": "Đăng nhập",
+            "login": "Đăng nhập",
+            "jobList": "Danh sách công việc",
+            "locationList": "Danh sách địa điểm",
+            "companyList": "Danh sách công ty"
+        },
+        "footer": {
+            "privacyAndCommitment": "Thỏa thuận và cam kết của chúng tôi",
+            "needCookie": "Tôi cần dữ liệu của bạn để thực hiện chức năng.",
+            "quote": "Tôi sẽ cung cấp cho bạn kiến thức về lập trình và hành trang cuộc sống đã trải nghiệm",
+            "emailAddress": "Email address",
+            "accept": "Chấp nhận",
+            "deny": "Để lần sau",
+            "subscribe": "Đăng ký",
+            "copyRight": "Bản quyền @ 2019 - 2025 vietblog.io.vn. Bảo lưu mọi quyền",
+            "quickCopy": "Quick Copy",
+            "outProduction": "Out Production",
+            "privacy": "Điều khoản",
+            "vietblog": "Viết blog"
+        },
+        "ui": {
+            "noneItemMatch": "Không tìm thấy công việc nào",
+            "anotherBlog": "Bài viết khác",
+            "clickToLogin": "Đăng nhập để phản hồi",
+            "replyTo": "Phản hồi",
+            "sendMessage": "Send message",
+            "name": "Tên",
+            "content": "Nội dung",
+            "cancel": "Thoát",
+            "submit": "Cập nhật",
+            "title": "Tiêu đề",
+            "shortContent": "Nội dung rút gọn",
+            "description": "Nội dung",
+            "author": "Tác giả",
+            "position": "Vị trí",
+            "state": "Trạng thái",
+            "tag": "Thẻ",
+            "addModal": "Thêm mới",
+            "noContentMatch": "No content match",
+            "fullName": "Họ và tên",
+            "applyTitle": "Ứng tuyển",
+            "searchTitle": "Tìm kiếm công việc của bạn",
+            "searchTitlePlaceholder": "Ex: Lập trình viên, Họa sỹ",
+            "location": "Khu vực",
+            "phoneNumber": "Số điện thoại",
+            "applyQuantity": "Số lượng ứng tuyến",
+            "noDetected": "Chưa cập nhật",
+            "home": "Trang chủ",
+            "career": "Việc làm",
+            "edit": "Cập nhật",
+            "job": "Công việc",
+            "save": "Lưu"
+        },
+        "profile": {
+            "logout": "Đăng xuất"
+        }
+    },
+    "pages": {
+        "home": {
+            "quotes": "Danh sách các công việc",
+            "listHeader": "Danh sách bài đăng",
+            "searchTitle": "Tìm kiếm công việc của bạn",
+            "result": "Kết quả tìm kiếm"
+        },
+        "blog": {
+            "backToHome": "Về trang chủ",
+            "tableContent": "Danh sách nội dung",
+            "tags": "Thẻ",
+            "comment": "Bình luận",
+            "anotherBlog": "Bài viết khác",
+            "share": "Chia sẻ"
+        },
+        "career": {
+            "backToHome": "Về trang chủ",
+            "tableContent": "Danh sách nội dung",
+            "tags": "Thẻ",
+            "comment": "Bình luận",
+            "anotherCareer": "Bài viết khác",
+            "share": "Chia sẻ"
+        },
+        "login": {
+            "username": "Tên người dùng",
+            "password": "Mật khẩu",
+            "formDescription": "Chào mừng bạn đến với vietblog.io.vn",
+            "formHeader": "Đăng nhập",
+            "loginButton": "Đăng nhập",
+            "registerButton": "Đăng ký",
+            "usernamePlaceholder": "Định dạng: ****@abc.xzy",
+            "passwordPlaceholder": "Mật khẩu tối thiểu 8 ký tự",
+            "signUpDescription": "Bạn không có tài khoản ? ",
+            "signUpButton": "Đăng ký",
+            "forgetPassword": "Quên mật khẩu",
+            "error": {
+                "usernameInvalid": "Vui lòng điền tên đăng nhập hợp lệ",
+                "passwordInvalid": "Vui  lòng điền mật khẩu hợp lệ"
+            }
+        },
+        "register": {
+            "username": "Tên người dùng",
+            "password": "Mật khẩu",
+            "email": "Thư điện tử",
+            "firstName": "Họ",
+            "firstNamePlaceholder": "Vui lòng không để trống trường này",
+            "lastNamePlaceholder": "Vui lòng không để trống trường này",
+            "rePasswordPlaceholder": "Mật khẩu phải trùng với mật khẩu đã điền trước",
+            "lastName": "Tên",
+            "formDescription": "Chào mừng bạn đến với vietblog.io.vn",
+            "formHeader": "Đăng ký",
+            "loginButton": "Đăng nhập",
+            "registerButton": "Đăng ký",
+            "emailPlaceholder": "Định dạng: ****@abc.xzy",
+            "passwordPlaceholder": "Mật khẩu tối thiểu 8 ký tự",
+            "signUpDescription": "Bạn không có tài khoản ? ",
+            "signInDescription": "Bạn đã có tài khoản ? ",
+            "signUpButton": "Đăng ký",
+            "signInButton": "Đăng nhập",
+            "forgetPassword": "Quên mật khẩu",
+            "rePassword": "Mật khẩu kiểm tra",
+            "error": {
+                "firstNameInvalid": "Vui lòng điền họ hợp lệ",
+                "lastNameInvalid": "Vui lòng điền tên hợp lệ",
+                "emailInvalid": "Vui lòng điền tên đăng nhập hợp lệ",
+                "passwordInvalid": "Vui lòng điền mật khẩu hợp lệ",
+                "rePasswordInvalid": "Vui lòng điền mật khẩu hợp lệ"
+            }
+        },
+        "subscribe": {
+            "successMessage": "Cảm ơn bạn đã đăng ký tài khoản cho hệ thống!!! <3",
+            "errorMessage": "Xin lỗi, không thể xác thực được tài khoản của bạn !!! :<",
+            "login": "Tới trang đăng nhập",
+            "backToHomePage": "Về trang chủ"
+        },
+        "successRegister": {
+            "header": "Đăng ký thành công",
+            "description": "Vui lòng kiểm tra mail của bạn để nhận mã xác thực",
+            "backToHomePage": "Trở về trang chủ"
+        },
+        "unlockAccount": {
+            "headerSuccess": "Xác thực thành công",
+            "headerFailure": "Xác thực thất bại",
+            "description": "Vui lòng kiểm tra mail của bạn để nhận mã xác thực",
+            "backToHomePage": "Trở về trang chủ",
+            "errorAccount": "Vui lòng kiểm tra lại địa chỉ mail của bạn"
+        },
+        "forgetPassword": {
+            "password": "Mật khẩu",
+            "email": "Thư điện tử",
+            "formDescription": "Chào mừng bạn đến với vietblog.io.vn",
+            "formHeader": "Quên mật khẩu",
+            "forgetPasswordButton": "Gửi",
+            "registerButton": "Đăng ký",
+            "emailPlaceholder": "Định dạng: ****@abc.xzy",
+            "passwordPlaceholder": "Mật khẩu tối thiểu 8 ký tự",
+            "signUpDescription": "Bạn không có tài khoản ? ",
+            "signUpButton": "Đăng ký",
+            "forgetPassword": "Quên mật khẩu",
+            "checkYourMail": "Vui lòng kiểm tra mail của bạn để để thay đổi mật khẩu",
+            "error": {
+                "usernameInvalid": "Vui lòng điền tên đăng nhập hợp lệ",
+                "passwordInvalid": "Vui  lòng điền mật khẩu hợp lệ",
+                "emailInvalid": "Vui  lòng điền mật khẩu hợp lệ"
+            }
+        },
+        "updatePassword": {
+            "password": "Mật khẩu",
+            "email": "Thư điện tử",
+            "formDescription": "Chào mừng bạn đến với vietblog.io.vn",
+            "formHeader": "Thay đổi mật khẩu",
+            "forgetPasswordButton": "Gửi",
+            "registerButton": "Đăng ký",
+            "emailPlaceholder": "Định dạng: ****@abc.xzy",
+            "passwordPlaceholder": "Mật khẩu tối thiểu 8 ký tự",
+            "signUpDescription": "Bạn không có tài khoản ? ",
+            "signUpButton": "Đăng ký",
+            "forgetPassword": "Quên mật khẩu",
+            "checkYourMail": "Vui lòng kiểm tra mail của bạn để để thay đổi mật khẩu",
+            "rePassword": "Mật khẩu kiểm tra",
+            "rePasswordButton": "Gửi",
+            "error": {
+                "usernameInvalid": "Vui lòng điền tên đăng nhập hợp lệ",
+                "passwordInvalid": "Vui lòng điền mật khẩu hợp lệ",
+                "rePasswordInvalid": "Vui lòng điền mật khẩu hợp lệ",
+                "emailInvalid": "Vui  lòng điền mật khẩu hợp lệ"
+            }
+        },
+        "profile": {
+            "general": "Thông tin chung",
+            "fullNameHeader": "Họ và tên",
+            "modalHeader": "Thông tin cá nhân",
+            "commentHeader": "Danh sách bình luận",
+            "blogHeaderHeader": "Danh sách bài đăng",
+            "blogHeader": "Số bài đăng",
+            "blogQuantity": "Số bài đăng",
+            "commentQuantity": "Số bài đăng",
+            "friendQuantity": "Số bạn",
+            "emailHeader": "Đại chỉ mail",
+            "upload": "Tải lên"
+        },
+        "blogList": {
+            "show": "Hiện",
+            "hide": "Ẩn",
+            "content": "Nội dung",
+            "slug": "Slug",
+            "state": "Trạng thái",
+            "title": "Tiêu đề",
+            "cancel": "Thoát",
+            "submit": "Hoàn tất"
+        },
+        "tagList": {
+            "name": "Tên thẻ",
+            "cancel": "Thoát",
+            "submit": "Cập nhật"
+        },
+        "careerDetail": {
+            "location": "Khu vực",
+            "job": "Công việc"
+        },
+        "careerList": {
+            "general": "Thông tin chung",
+            "fullNameHeader": "Họ và tên",
+            "modalHeader": "Thông tin cá nhân",
+            "commentHeader": "Danh sách bình luận",
+            "blogHeaderHeader": "Danh sách bài đăng",
+            "blogHeader": "Số bài đăng",
+            "blogQuantity": "Số bài đăng",
+            "commentQuantity": "Số bài đăng",
+            "friendQuantity": "Số bạn",
+            "emailHeader": "Đại chỉ mail",
+            "upload": "Tải lên"
+        },
+        "companyList": {
+            "general": "Thông tin chung",
+            "fullNameHeader": "Họ và tên",
+            "modalHeader": "Thông tin cá nhân",
+            "commentHeader": "Danh sách bình luận",
+            "blogHeaderHeader": "Danh sách bài đăng",
+            "blogHeader": "Số bài đăng",
+            "blogQuantity": "Số bài đăng",
+            "commentQuantity": "Số bài đăng",
+            "friendQuantity": "Số bạn",
+            "emailHeader": "Đại chỉ mail",
+            "upload": "Tải lên",
+            "namePlaceHolder": "Nhập tên công ty",
+            "name": "Tên công ty",
+            "companyLink": "Đường dẫn tới công ty"
+        },
+        "applyList": {
+            "general": "Thông tin chung",
+            "fullNameHeader": "Họ và tên",
+            "modalHeader": "Thông tin cá nhân",
+            "commentHeader": "Danh sách bình luận",
+            "blogHeaderHeader": "Danh sách bài đăng",
+            "blogHeader": "Số bài đăng",
+            "blogQuantity": "Số bài đăng",
+            "commentQuantity": "Số bài đăng",
+            "friendQuantity": "Số bạn",
+            "emailHeader": "Đại chỉ mail",
+            "upload": "Tải lên"
+        },
+        "careerEdit": {
+            "chooseJob": "Chọn công việc",
+            "location": "Địa chỉ",
+            "job": "Công việc"
+        }
+    }
+}

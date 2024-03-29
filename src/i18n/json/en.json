@@ -1,0 +1,277 @@
+{
+    "common": {
+        "header": {
+            "home": "Home",
+            "aboutMe": "About me",
+            "resource": "Resource",
+            "rss": "rss",
+            "search": "Search",
+            "profile": "Profile",
+            "english": "English",
+            "vietnamese": "Vietnamese",
+            "admin": "Admin",
+            "blogList": "List of posts",
+            "roleList": "List of permissions",
+            "permissionList": "List of permissions",
+            "profileList": "List of profile",
+            "tagList": "Tag List",
+            "commentList": "List of comments",
+            "userList": "List of users",
+            "loginOrRegister": "Login",
+            "login": "Login",
+            "jobList": "Job list",
+            "locationList": "Location list",
+            "companyList": "Company list"
+        },
+        "footer": {
+            "privacyAndCommitment": "Our agreement and commitment",
+            "needCookie": "I need your data to function.",
+            "quote": "I will provide you with knowledge about programming and life experiences I have experienced",
+            "emailAddress": "Email address",
+            "accept": "Accept",
+            "deny": "Next time",
+            "subscribe": "Subscribe",
+            "copyRight": "Copyright @ 2019 - 2025 vietblog.io.vn. All rights reserved",
+            "quickCopy": "Quick Copy",
+            "outProduction": "Out Production",
+            "contact": "Contact",
+            "privacy": "Privacy"
+        },
+        "ui": {
+            "noneItemMatch": "No records found",
+            "anotherBlog": "Another blog",
+            "clickToLogin": "Login to reply",
+            "replyTo": "Reply to",
+            "sendMessage": "Send message",
+            "content": "Content",
+            "cancel": "Exit",
+            "submit": "Update",
+            "title": "Title",
+            "shortContent": "Short content",
+            "description": "Content",
+            "author": "Author",
+            "position": "Position",
+            "state": "Status",
+            "tag": "Tag",
+            "addModal": "Add new",
+            "noContentMatch": "No content match",
+            "fullName": "Full Name",
+            "applyTitle": "Apply",
+            "phoneNumber": "Phone Number",
+            "searchTitlePlaceholder": "Ex: Artist, Developer,...",
+            "searchTitle": "Search your job",
+            "location": "Location",
+            "applyQuantity": "Apply quantity",
+            "noDetected": "No detected",
+            "edit": "Edit",
+            "job": "Job",
+            "save": "Save",
+            "company": "Company"
+        },
+        "profile": {
+            "logout": "Log out"
+        }
+    },
+    "pages": {
+        "home": {
+            "quotes": "Life's baggage",
+            "listHeader": "List of posts",
+            "searchTitle": "Enter keyword your job",
+            "result": "List of jobs"
+        },
+        "blog": {
+            "backToHome": "Back to home page",
+            "tableContent": "List of contents",
+            "tags": "Tags",
+            "comment": "Discussion",
+            "anotherBlog": "Another post",
+            "share": "Share"
+        },
+        "career": {
+            "backToHome": "Back to home page",
+            "tableContent": "List of contents",
+            "tags": "Tags",
+            "comment": "Discussion",
+            "anotherCareer": "Another post",
+            "share": "Share"
+        },
+        "login": {
+            "username": "Username",
+            "password": "Password",
+            "formDescription": "Welcome to vietblog.io.vn",
+            "formHeader": "Login",
+            "loginButton": "Login",
+            "registerButton": "Register",
+            "usernamePlaceholder": "Format: ****@abc.xzy",
+            "passwordPlaceholder": "Minimum password 8 characters",
+            "signUpDescription": "You don't have an account? ",
+            "signUpButton": "Sign up",
+            "forgetPassword": "Forgot password",
+            "error": {
+                "usernameInvalid": "Please enter a valid username",
+                "passwordInvalid": "Please fill in a valid password"
+            }
+        },
+        "register": {
+            "username": "Username",
+            "password": "Password",
+            "email": "Email",
+            "firstName": "Last name",
+            "firstNamePlaceholder": "Please do not leave this field blank",
+            "lastNamePlaceholder": "Please do not leave this field blank",
+            "rePasswordPlaceholder": "The password must match the previously entered password",
+            "lastName": "Name",
+            "formDescription": "Welcome to vietblog.io.vn",
+            "formHeader": "Register",
+            "loginButton": "Login",
+            "registerButton": "Register",
+            "emailPlaceholder": "Format: ****@abc.xzy",
+            "passwordPlaceholder": "Minimum password 8 characters",
+            "signUpDescription": "You don't have an account? ",
+            "signInDescription": "Do you already have an account? ",
+            "signUpButton": "Sign up",
+            "signInButton": "Sign in",
+            "forgetPassword": "Forgot password",
+            "rePassword": "Test password",
+            "error": {
+                "firstNameInvalid": "Please fill in a valid last name",
+                "lastNameInvalid": "Please enter a valid name",
+                "emailInvalid": "Please enter a valid username",
+                "passwordInvalid": "Please enter a valid password",
+                "rePasswordInvalid": "Please enter a valid password"
+            }
+        },
+        "subscribe": {
+            "successMessage": "Thank you for registering an account for the system!!! <3",
+            "errorMessage": "Sorry, your account could not be authenticated !!! :<",
+            "login": "Go to login page",
+            "backToHomePage": "Back to home page"
+        },
+        "successRegister": {
+            "header": "Successful registration",
+            "description": "Please check your email to receive the verification code",
+            "backToHomePage": "Return to home page"
+        },
+        "unlockAccount": {
+            "headerSuccess": "Authentication successful",
+            "headerFailure": "Authentication failed",
+            "description": "Please check your email to receive the verification code",
+            "backToHomePage": "Return to home page",
+            "errorAccount": "Please check your email address again"
+        },
+        "forgetPassword": {
+            "password": "Password",
+            "email": "Email",
+            "formDescription": "Welcome to vietblog.io.vn",
+            "formHeader": "Forgot password",
+            "forgetPasswordButton": "Send",
+            "registerButton": "Register",
+            "emailPlaceholder": "Format: ****@abc.xzy",
+            "passwordPlaceholder": "Minimum password 8 characters",
+            "signUpDescription": "You don't have an account? ",
+            "signUpButton": "Sign up",
+            "forgetPassword": "Forgot password",
+            "checkYourMail": "Please check your mail to request your password",
+            "error": {
+                "usernameInvalid": "Please enter a valid username",
+                "passwordInvalid": "Please fill in a valid password",
+                "emailInvalid": "Please fill in a valid password"
+            }
+        },
+        "updatePassword": {
+            "password": "Password",
+            "email": "Email",
+            "formDescription": "Welcome to vietblog.io.vn",
+            "formHeader": "Update password",
+            "forgetPasswordButton": "Send",
+            "registerButton": "Register",
+            "rePasswordButton": "Send",
+            "emailPlaceholder": "Format: ****@abc.xzy",
+            "passwordPlaceholder": "Minimum password 8 characters",
+            "signUpDescription": "You don't have an account? ",
+            "signUpButton": "Sign up",
+            "updatePassword": "Update password",
+            "checkYourMail": "Please check your mail to request your password",
+            "error": {
+                "usernameInvalid": "Please enter a valid username",
+                "passwordInvalid": "Please fill in a valid password",
+                "emailInvalid": "Please fill in a valid password",
+                "rePasswordInvalid": "Please fill in a valid password"
+            }
+        },
+        "profile": {
+            "general": "General Information",
+            "fullNameHeader": "Full name",
+            "modalHeader": "Profile Information",
+            "commentHeader": "Comment List",
+            "blogHeader": "Blog List",
+            "blogQuantity": "Total blog",
+            "commentQuantity": "Total comment",
+            "friendQuantity": "Total friend",
+            "emailHeader": "Email address",
+            "upload": "Upload"
+        },
+        "blogList": {
+            "show": "Show",
+            "hide": "Hide",
+            "content": "Content",
+            "slug": "Slug",
+            "state": "State",
+            "title": "Title",
+            "cancel": "Cancel",
+            "submit": "Submit"
+        },
+        "careerList": {
+            "show": "Show",
+            "hide": "Hide",
+            "content": "Content",
+            "slug": "Slug",
+            "state": "State",
+            "title": "Title",
+            "cancel": "Cancel",
+            "submit": "Submit",
+            "name": "Name"
+        },
+        "companyList": {
+            "show": "Show",
+            "hide": "Hide",
+            "content": "Content",
+            "slug": "Slug",
+            "state": "State",
+            "title": "Title",
+            "cancel": "Cancel",
+            "submit": "Submit",
+            "name": "Name",
+            "namePlaceholder": "Enter company name",
+            "companyLink": "Link to company"
+        },
+        "tagList": {
+            "name": "Tag name",
+            "cancel": "Cancel",
+            "submit": "Submit"
+        },
+        "careerDetail": {
+            "location": "Location",
+            "job": "Job"
+        },
+        "careerJob": {
+            "location": "Location",
+            "job": "Job"
+        },
+        "careerEdit": {
+            "chooseJob": "Choose Job",
+            "location": "Location",
+            "job": "Job"
+        },
+        "applyList": {
+            "show": "Show",
+            "hide": "Hide",
+            "content": "Content",
+            "slug": "Slug",
+            "state": "State",
+            "title": "Title",
+            "cancel": "Cancel",
+            "submit": "Submit"
+        }
+    }
+}
